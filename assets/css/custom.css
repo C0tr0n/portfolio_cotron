@@ -1,0 +1,29 @@
+.skill-icon{
+    margin: 10px;
+    padding: 5px;
+}
+.dwnload-btn{
+    float: right;
+    padding: 5px;
+    border-bottom: solid;
+    border-color: #18d26e;
+
+}
+
+@media only screen and (max-width: 600px) {
+    body::before {
+        position: fixed;
+        background: #040404 url("../img/an_phon.jpg") top right no-repeat;
+        background-size: cover;
+        left: 0;
+        right: 0;
+        top: 0;
+        right: -50px; 
+      }
+      #header h2 {
+        font-size: 16px;
+    }
+
+    
+  }
+
